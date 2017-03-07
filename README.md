@@ -11,36 +11,36 @@ MonteJS Features
 -------------
 
 ####Options
-One of the foundation features of monte is the options obejct. Monte Options provide a easy way to set static and dynamic parameters for a created chart. Monte also Monte comes with a number of pre created option types such as:
-> **boundingWidth:** Sets the width of the bounding area of the chart.
->  **boundingHeight:** Sets the width of the bounding area of the chart.
-> **chartCss:** An option that allows the user to pass CSS styles to the chart.
->  **margin:** An object with 4 properties (top, left, bottom, right) used to set the chart margins.
-> **suppressAxes:** Suppress the display of the axes.
-> **pointSize:** Sets the width of the bounding area of the chart.
-> **transition:** Sets the width of the bounding area of the chart.
-> **resize:** Contains a reference to a resize function that is called when the window resizes.
->  **xProp:** The property name of the value for the X coordinate passed to the scale function.
->  **xScale:** The scale function for X values.
->  **xAxisCustomize:** Callback function to customize the X axis, such as tick count and format.
->  **xDomainCustomize:** Callback function to customize the X extent.
->  **xLabel:** The label for the x axis.
->  **yProp:** The property name of the value for the Y coordinate passed to the scale function.
->  **yScale:** The scale function for Y values.
->  **yAxisCustomize:** Callback function to customize the X axis, such as tick count and format.
->  **yDomainCustomize:** Callback function to customize the Y extent.
->  **yAxisTransform:** The label for the y axis.
+One of the foundation features of monte is the options object. Monte Options provide a easy way to set static and dynamic parameters for a created chart. Monte also Monte comes with a number of pre created option types such as:
+> - **boundingWidth:** Sets the width of the bounding area of the chart.
+> - **boundingHeight:** Sets the width of the bounding area of the chart.
+> - **chartCss:** An option that allows the user to pass CSS styles to the chart.
+> - **margin:** An object with 4 properties (top, left, bottom, right) used to set the chart margins.
+> - **suppressAxes:** Suppress the display of the axes.
+> - **pointSize:** Sets the width of the bounding area of the chart.
+> - **transition:** Sets the width of the bounding area of the chart.
+> - **resize:** Contains a reference to a resize function that is called when the window resizes.
+> - **xProp:** The property name of the value for the X coordinate passed to the scale function.
+> - **xScale:** The scale function for X values.
+> - **xAxisCustomize:** Callback function to customize the X axis, such as tick count and format.
+> - **xDomainCustomize:** Callback function to customize the X extent.
+> - **xLabel:** The label for the x axis.
+> - **yProp:** The property name of the value for the Y coordinate passed to the scale function.
+> - **yScale:** The scale function for Y values.
+> - **yAxisCustomize:** Callback function to customize the X axis, such as tick count and format.
+> - **yDomainCustomize:** Callback function to customize the Y extent.
+> - **yAxisTransform:** The label for the y axis.
 You can pass a variable or an expression as a static option.  Monte also supports passing callback functions as options. 
 #####Options Instances
 In addition to the option types that Monte provides, Monte comes with a number of precreated options that you can use to populate some of those types.  Some of these options can be used to create visual elements ( like chart backgrounds or  overlay elements), while others can be used to calculate locations for other visual elements, or apply number formatting.
 TODO -- expand this area
 Some Instance example ( TODO-- is 'instance' the right word?)
-> **axisNoTicks** TODO--Add Description
-> **axisWholeNumberFormat** TODO--Add Description
-> **axisYLabelGenerator** TODO--Add Description
-> **needleRoundedEnd** TODO--Add Description
-> **needleFlatEnd** TODO--Add Description
->**....and more to be added**
+> - **axisNoTicks** TODO--Add Description
+> - **axisWholeNumberFormat** TODO--Add Description
+> - **axisYLabelGenerator** TODO--Add Description
+> - **needleRoundedEnd** TODO--Add Description
+> - **needleFlatEnd** TODO--Add Description
+> - **....and more to be added**
 TODO-- complete list should be added to API docs.... 
 
 
@@ -49,23 +49,23 @@ Monte also adds the ability for you to create your own special type of option ca
 ####Extensions
 TODO This is where we would talk about extensions
 Extensions allow you to create custom code options for you particular graph. Monte comes with a number of pre created extension to provide useful functionality for you charts. These include:
-> **ExtArc:** TODO --Add Description
-> **ExtAxisTickTransform:** TODO --Add Description
-> **ExtAxisLabelWrap:** TODO --Add Description
->  **ExtCrosshair:** TODO --Add Description
-> **ExtFrame:** TODO --Add Description
-> **ExtGrid:** TODO --Add Description
-> **ExtHorizontalLines:** TODO --Add Description
-> **ExtVerticalLines:** TODO --Add Description
-> **ExtLabel:** TODO --Add Description
-> **ExtPolarGrid:** TODO --Add Description
-> **ExtPolarLine:** TODO --Add Description
-> **ExtPolarRotateLabel:** TODO --Add Description
->  **ExtPolarTicks:** TODO --Add Description
-> **ExtBarBg:** TODO --Add Description
-> **ExtHorizontalBarBg:** TODO --Add Description
-> **ExtReferenceLine:** TODO --Add Description
-> **ExtSelectionRect:** TODO --Add Description
+> - **ExtArc:** TODO --Add Description
+> - **ExtAxisTickTransform:** TODO --Add Description
+> - **ExtAxisLabelWrap:** TODO --Add Description
+> - **ExtCrosshair:** TODO --Add Description
+> - **ExtFrame:** TODO --Add Description
+> - **ExtGrid:** TODO --Add Description
+> - **ExtHorizontalLines:** TODO --Add Description
+> - **ExtVerticalLines:** TODO --Add Description
+> - **ExtLabel:** TODO --Add Description
+> - **ExtPolarGrid:** TODO --Add Description
+> - **ExtPolarLine:** TODO --Add Description
+> - **ExtPolarRotateLabel:** TODO --Add Description
+> - **ExtPolarTicks:** TODO --Add Description
+> - **ExtBarBg:** TODO --Add Description
+> - **ExtHorizontalBarBg:** TODO --Add Description
+> - **ExtReferenceLine:** TODO --Add Description
+> - **ExtSelectionRect:** TODO --Add Description
 
 ####Monte Charts
 Monte comes with a number of chart types in 2 different types of chart families; Axes charts and Polar charts. In addition Monte has a few non chart type pre-made visualizations Currently Monte ships with the following chart types:
