@@ -31,6 +31,7 @@ One of the foundation features of monte is the options object. Monte Options pro
 > - **yDomainCustomize:** Callback function to customize the Y extent.
 > - **yAxisTransform:** The label for the y axis.
 You can pass a variable or an expression as a static option.  Monte also supports passing callback functions as options. 
+
 #####Options Instances
 In addition to the option types that Monte provides, Monte comes with a number of precreated options that you can use to populate some of those types.  Some of these options can be used to create visual elements ( like chart backgrounds or  overlay elements), while others can be used to calculate locations for other visual elements, or apply number formatting.
 TODO -- expand this area
@@ -218,7 +219,7 @@ var barOpts = {
 			};
 ```
 [(Example 5)][5] 
-Now when we run it we see 2 yellow bars with blue outlines. We can 
+Now when we run it we see 2 yellow bars with blue outlines. We can (...More to be added...)
 
 
 [1]:https://jsfiddle.net/MarkRocks/uunLd2wh/1/
